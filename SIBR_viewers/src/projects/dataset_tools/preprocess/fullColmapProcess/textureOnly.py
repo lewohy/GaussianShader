@@ -31,7 +31,7 @@ import argparse
 from utils.paths import getBinariesPath 
 from utils.commands import  getProcess
 from utils.TaskPipeline import TaskPipeline
-from simplify_mesh import simplifyMesh
+from converters.simplify_mesh import simplifyMesh
 
 def main():
     parser = argparse.ArgumentParser()

@@ -7,7 +7,7 @@ import sys
 import argparse
 import shutil
 import sqlite3
-import read_write_model as rwm
+# import read_write_model as rwm
 import pymeshlab
 
 

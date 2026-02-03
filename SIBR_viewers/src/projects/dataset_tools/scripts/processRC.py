@@ -31,12 +31,12 @@ os.sys.path.append('../preprocess/converters')
 
 import json
 import argparse
-from utils.paths import getBinariesPath, getColmapPath, getMeshlabPath
-from utils.commands import  getProcess, getColmap, getRCprocess
-from utils.TaskPipeline import TaskPipeline
-import rc_tools
-import colmap2nerf
-import selective_colmap_process
+from ..preprocess.utils.paths import getBinariesPath, getColmapPath, getMeshlabPath
+from ..preprocess.utils.commands import  getProcess, getColmap, getRCprocess
+from ..preprocess.utils.TaskPipeline import TaskPipeline
+# import rc_tools
+# import colmap2nerf
+# import selective_colmap_process
 
 def find_file(filename):
     fname = os.path.join(os.path.abspath(os.path.dirname(__file__)), filename)
